@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela</title>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif;}
+        table { border-collapse: collapse;}
+        th, td { border: 1px solid rebeccapurple;
+                padding: 10px;}
+             
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Áreas</th>
+                <th scope="col">Disciplinas</th>
+                <th colspan="3" scope="colgroup">Notas</th>
+                <th rowspan="1" scope="rowgroup">Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td> 
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+               <td>0.0</td>
+               <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Filosofia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+               <td>0.0</td>
+               <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
